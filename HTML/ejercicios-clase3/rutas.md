@@ -1,6 +1,6 @@
 ## RUTAS RELATIVAS Y RUTAS ABSOLUTAS - EJERCICIOS
 
-<p><img alt="mapa de ruta" src="./image.png" /></p>
+<p><img alt="mapa de ruta" src="./arbol.png" /></p>
 
 
 1. Estando en B acceder a b.txt usando ruta relativa.
