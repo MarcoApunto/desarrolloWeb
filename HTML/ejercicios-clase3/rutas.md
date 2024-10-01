@@ -2,10 +2,14 @@
 
 <p><img alt="mapa de ruta" src="./image.png" /></p>
 
-<p>1. Estando en B acceder a b.txt usando ruta relativa</p>
+<p>
+1. Estando en B acceder a b.txt usando ruta relativa
 A/B> ./C/b.txt
-<p>2. Estando en C acceder a F usando ruta absoluta</p>
-A/B/C> A/D/E/F 
+</p>
+<p>
+2. Estando en C acceder a F usando ruta absoluta
+A/B/C> A/D/E/F
+</p>
 <p>3. Estando en F acceder a A usando ruta relativa</p>
 A/D/F> ../..
 <p>4. Estando en D acceder a c.txt usando ruta absoluta</p>
