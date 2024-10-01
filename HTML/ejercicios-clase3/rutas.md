@@ -4,11 +4,13 @@
 
 
 1. Estando en B acceder a b.txt usando ruta relativa.
-<span style="color: blue">A/B> ./C/b.txt</span>
-
+```
+A/B> ./C/b.txt
+```
 2. Estando en C acceder a F usando ruta absoluta.
-<span style="color: blue">A/B/C> A/D/E/F</span>
-
+```
+A/B/C> A/D/E/F
+```
 3. Estando en F acceder a A usando ruta relativa.
 A/D/F> ../..
 
