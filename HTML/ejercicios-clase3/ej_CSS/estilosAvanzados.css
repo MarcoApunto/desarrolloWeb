@@ -1,0 +1,68 @@
+body {
+	background-color: rgb(212, 212, 212);
+}
+
+#titulo {
+	color: teal;
+}
+
+p > strong {
+	color: red;
+}
+
+span[class= "destacado"] {
+	color: orange;
+}
+
+#subtitulo {
+	color: blue;
+}
+
+p > a {
+	color: red;
+}
+
+p a > em {
+	color: blue;
+}
+
+span[class= "especial"] {
+	color: purple;
+}
+
+table, tr, th, td, tbody, tfoot {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table > caption {
+	color: blue;
+}
+
+th[class="especial"] {
+	color: orange;
+}
+
+tbody td {
+	color: green;
+}
+
+tbody td > strong {
+	color: orange;
+}
+
+tfoot th, tbody th {
+	color: red;
+}
+
+#adicional {
+	color: olive;
+}
+
+#especial {
+	color: purple;
+}
+
+div p > a {
+	color: green;
+}
