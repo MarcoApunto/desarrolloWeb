@@ -31,4 +31,3 @@ switch (foo) {
 		console.log("default");
 }
 */
-
