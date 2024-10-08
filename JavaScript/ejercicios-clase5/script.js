@@ -1,29 +1,24 @@
-function countNumbers (cn) {
+function countNumbers() {
 
-	cn = prompt("Introduzca un número a contar: ");
+	let cn = prompt("Introduzca un número a contar: ");
 	let count = 0;
 	while (cn != 0) {
 		cn = Math.floor(cn / 10);
 		count++;
 	}
-
-	return count;
+	alert("El número tiene " + count + " dígitos.");
 }
 
-console.log(countNumbers());
+function undln () {
 
-function undln (n) {
-
-	n = prompt("Introduzca una cantidad de _ quieres: ")
+	let n = prompt("Introduzca una cantidad de _ quieres: ")
 	let ret = "";
 	while (n != 0) {
-		ret += "_ "
+		ret += "_ ";
 		n -= 1;
 	}
-	return ret;
+	alert(ret);
 }
-
-console.log(undln());
 
 function sequence() {
 
@@ -37,13 +32,9 @@ function sequence() {
 			seq += "_";
 		}
 	}
-	return seq;
+	alert(seq);
 }
-
-console.log(sequence());
 
 function tree() {
-	return "*\n**\n***\n****\n*****";
+	alert("*\n**\n***\n****\n*****");
 }
-
-console.log(tree());
