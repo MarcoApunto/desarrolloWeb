@@ -40,6 +40,8 @@ function sequence() {
 
 console.log(sequence());
 
-(tree) => tree = "*\n**\n***\n****\n*****";
+function tree() {
+	return "*\n**\n***\n****\n*****";
+}
 
 console.log(tree());
