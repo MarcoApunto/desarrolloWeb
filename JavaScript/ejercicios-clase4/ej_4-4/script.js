@@ -10,6 +10,7 @@ do {
 	pass = prompt("Password: \n(Pista: Ferreira)");
 	if (username == user && password == pass) {
 		alert("Correcto!");
+		break;
 	} else if (username != user) {
 		alert("Username incorrecto");
 	} else {
