@@ -1,5 +1,6 @@
 function countNumbers (cn) {
 
+	cn = prompt("Introduzca un número a contar: ");
 	let count = 0;
 	while (cn != 0) {
 		cn = Math.floor(cn / 10);
@@ -9,10 +10,11 @@ function countNumbers (cn) {
 	return count;
 }
 
-console.log(countNumbers(12345));
+console.log(countNumbers());
 
 function undln (n) {
 
+	n = prompt("Introduzca una cantidad de _ quieres: ")
 	let ret = "";
 	while (n != 0) {
 		ret += "_ "
@@ -21,7 +23,7 @@ function undln (n) {
 	return ret;
 }
 
-console.log(undln(7));
+console.log(undln());
 
 function sequence() {
 
