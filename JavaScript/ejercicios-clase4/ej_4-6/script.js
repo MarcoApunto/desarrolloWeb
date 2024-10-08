@@ -15,4 +15,4 @@ for (let i = 0; i < arr.length - 1; i++) {
 	}
 }
 
-alert("OORDEANDO ALFABETICAMENTE: \n" + arr + "\nSOLUCION CON .sort(): \n" + arrComp.sort());
+alert("ORDENADO ALFABETICAMENTE: \n" + arr + "\nSOLUCION CON .sort(): \n" + arrComp.sort());
