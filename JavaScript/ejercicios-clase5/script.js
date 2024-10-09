@@ -1,4 +1,3 @@
-/*
 function countNumbers() {
 
 	let cn = prompt("Introduzca un número a contar: ");
@@ -40,20 +39,24 @@ function tree() {
 	alert("*\n**\n***\n****\n*****");
 }
 
-*/
 function diffDays (dateOne, dateTwo) {
 
 	const month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
 	let [dayOne, monthOne] = dateOne;
 	let [dayTwo, monthTwo] = dateTwo;
-	let daysMonthOne = 0;
-	let daysMonthTwo = 0;
+	let totalDays = 0;
 
+	totalDays += month[monthOne - 1] - dayOne;
+
+	for (let i = monthOne + 1; i < monthTwo; i++) {
+		totalDays += month[i - 1];
+	}
+	totalDays += dayTwo;
 	
-	return daysTotal;
+	return totalDays;
 }
-
+console.log(diffDays([16, 8], [15, 12]));
 console.log(diffDays([5, 7], [17, 8]));
 
 // De mes en mes, hecho
