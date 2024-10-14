@@ -1,1 +1,17 @@
 https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+
+config vscode:
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "editor.insertSpaces": false,
+    "workbench.colorTheme": "Omni",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.stickyScroll.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, Hack Nerd Font",
+    "editor.fontLigatures": true,
+}
+
