@@ -12,3 +12,5 @@ if (data == la) {
 } else {
 	alert("No se ha insertado ningún carácter indicado.");
 }
+
+// Hacerlo con switch!!!
