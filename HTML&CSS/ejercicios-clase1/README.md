@@ -31,10 +31,10 @@ Realiza las siguientes modificaciones:
 
 Aspecto del resultado final:
 
-![img](../../assets/clase1/Ejercicio1_HTML.png)
+![img](../imgsEnunciado/enunciado_img1.png)
 
 2. Usando listas, crea una página, cuyo resultado final sea el siguiente:
-   ![img](../../assets/clase1/Ejercicio2_HTML.png)
+   ![img](../imgsEnunciado/enunciado_img2.png)
 
 3. A partir del siguiente código e información:
 
@@ -166,3 +166,7 @@ Aspecto del resultado final:
 
 
 ```
+
+El resultado final debe ser:
+
+![img](../imgsEnunciado/enunciado_img3.png)
