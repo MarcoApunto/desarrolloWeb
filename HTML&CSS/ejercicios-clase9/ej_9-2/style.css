@@ -1,0 +1,14 @@
+/*El elemento fijo permanecerá en su posición incluso al hacer scroll. Si su contenido excede sus dimensiones, overflow: hidden ocultará el exceso*/
+body {
+	height: 2000px; /* Para crear scroll en la página */
+  }
+  
+  .fixed-element {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background-color: lightgreen;
+  }
