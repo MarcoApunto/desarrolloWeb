@@ -17,10 +17,12 @@ function createList(data) {
 	}
 	return nodeDl;
 }
+
 const dataList = [
-	["Casa", "Lugar para vivir"],
-	["Arbol", "Planta que da sombra"],
-	["Café", "Líquido para no dormir"],
+	["Red Telefónica Conmutada (RTC)", "La línea telefónica de toda la vida. Para acceder a Internet es necesario un módem."],
+	["Red Digital de Servicios Integrados (RDSI)", "Una línea telefónica especial. Para acceder a Internet es necesario un módem RDSI."],
+	["Línea de Abonado Digital Asimétrica (ADSL)", "Se basa en la conversión de una línea RTC en una línea de alta velocidad. Para acceder a Internet es necesario un módem ADSL."],
+	["Fibra Óptica", "Una línea de fibra óptica. Normalmente la fibra óptica no llega hasta el usuario final, por lo que el término más apropiado es Fibra híbrida coaxial."]
 ];
 
 document.body.appendChild(createList(dataList));
