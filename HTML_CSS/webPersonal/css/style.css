@@ -107,3 +107,24 @@ figure {
 		flex-direction: column;
 	}
 }
+
+.footer {
+	padding: 20px;
+	background-color: #303030;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer-text {
+	color: white;
+	font-size: 1rem;
+}
+
+#noScroll {
+	overflow: hidden;
+	.footer {
+		position: absolute;
+	}
+}
