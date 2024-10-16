@@ -1,4 +1,4 @@
-## RUTAS RELATIVAS Y RUTAS ABSOLUTAS - EJERCICIOS
+## RUTAS RELATIVAS Y RUTAS ABSOLUTAS - EJERCICIOS Y SOLUCIONES
 
 <p><img alt="mapa de ruta" src="./arbol.png" /></p>
 
