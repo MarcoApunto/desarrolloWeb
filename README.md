@@ -7,7 +7,7 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 | Ejercicios                                         | Contenido                                    |
 | -------------------------------------------------- | -------------------------------------------- |
-| [Clase_1](./HTML&CSS/ejercicios-clase1/)           | Preparativos                                 |
+| [Clase_1](./HTML&CSS/ejercicios-clase1/)           | Primeros pasos en HTML5                      |
 | [Clase_2](./HTML&CSS/ejercicios-clase2/)           | Formularios y Web semántica HTML5            |
 | [Clase_3](./HTML&CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
 
