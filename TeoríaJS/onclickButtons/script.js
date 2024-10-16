@@ -1,4 +1,3 @@
-/*
 let frutas = ["Manzana", "Banana"];
 console.log(frutas); // Manzana y Banana
 console.log(frutas.length); // 2
@@ -10,9 +9,7 @@ ultimo = frutas.pop(); // Elimina "Naranja" del final
 // ["Manzana", "Banana"]
 var frase = "Hola Mundo!";
 alert(frase);
-*/
 
-/*
 var foo = 0;
 switch (foo) {
 	case -1:
@@ -30,4 +27,3 @@ switch (foo) {
 	default:
 		console.log("default");
 }
-*/
