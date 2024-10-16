@@ -28,5 +28,5 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 | Ejercicios                                                  | Contenido                |
 | ----------------------------------------------------------- | ------------------------ |
-| [Clase_7](./JavaScript/ejercicios-clase5/)                  | DOM                      |
+| [Clase_7](./JavaScript/ejercicios-clase7/)                  | DOM                      |
 | [Clase_8](https://github.com/MarcoApunto/ejercicioEquipo)   | Ejercicios equipo        |
