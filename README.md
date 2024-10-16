@@ -30,3 +30,9 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | ----------------------------------------------------------- | ------------------------ |
 | [Clase_7](./JavaScript/ejercicios-clase7/)                  | DOM                      |
 | [Clase_8](https://github.com/MarcoApunto/ejercicioEquipo)   | Ejercicios equipo        |
+
+### CSS
+
+| Ejercicios                               | Contenido                                   |
+| ---------------------------------------- | ------------------------------------------- |
+| [Clase_9](./HTML&CSS/ejercicios-clase9)  | Overflow y posicionamiento absoluto/fijo    |

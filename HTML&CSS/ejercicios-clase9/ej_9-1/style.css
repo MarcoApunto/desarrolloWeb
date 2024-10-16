@@ -1,0 +1,15 @@
+/*El elemento hijo es más grande que su contenedor. Con overflow: auto, se añadirán barras de desplazamiento para ver el contenido completo.*/
+.container {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	overflow: auto;
+  }
+  
+  .absolute-child {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: lightblue;
+  }
