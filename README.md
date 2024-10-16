@@ -7,15 +7,15 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 | Ejercicios                                         | Contenido                                    |
 | -------------------------------------------------- | -------------------------------------------- |
-| [Clase_1](./HTML&CSS/ejercicios-clase1/)           | Primeros pasos en HTML5                      |
-| [Clase_2](./HTML&CSS/ejercicios-clase2/)           | Formularios y Web semántica HTML5            |
-| [Clase_3](./HTML&CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
+| [Clase_1](./HTML_CSS/ejercicios-clase1/)           | Primeros pasos en HTML5                      |
+| [Clase_2](./HTML_CSS/ejercicios-clase2/)           | Formularios y Web semántica HTML5            |
+| [Clase_3](./HTML_CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
 
 ### CSS
 
 | Ejercicio                                      | Contenido                                                                   |
 | ---------------------------------------------- | --------------------------------------------------------------------------- |
-| [Clase_3](./HTML&CSS/ejercicios-clase3/ej_CSS) | Selectores Básicos y Avanzados, Combinados, Herencia, Ejemplos y Colisiones |
+| [Clase_3](./HTML_CSS/ejercicios-clase3/ej_CSS) | Selectores Básicos y Avanzados, Combinados, Herencia, Ejemplos y Colisiones |
 
 ### Fundamentos de programación - JavaScript
 
@@ -35,4 +35,4 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 | Ejercicios                               | Contenido                                   |
 | ---------------------------------------- | ------------------------------------------- |
-| [Clase_9](./HTML&CSS/ejercicios-clase9)  | Overflow y posicionamiento absoluto/fijo    |
+| [Clase_9](./HTML_CSS/ejercicios-clase9)  | Overflow y posicionamiento absoluto/fijo    |
