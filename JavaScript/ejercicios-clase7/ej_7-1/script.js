@@ -4,7 +4,7 @@ function countLinks() {
 	for (let i = 0; i < links.length; i++) {
 		ret++;
 	}
-	alert("Hay: " + ret + " enlaces");
+	alert("Hay " + ret + " enlaces");
 }
 
 function stlLink() {
@@ -17,8 +17,7 @@ function stlLink() {
 	while (count < links.length) {
 		count++;
 	}
-	console.log(links[count - 1]);
-	document.write(links[count - 1].href);
+	alert(links[count - 1].href);
 }
 
 function countHref() {
