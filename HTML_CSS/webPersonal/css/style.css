@@ -65,8 +65,7 @@ h1 {
 	margin-left: auto;
 	display: flex;
 	justify-content: space-between;
-	/*guía/regleta de la caja*/
-	border: 2px solid black;
+
 }
 
 /*Distribución de espacio y márgenes*/
@@ -74,26 +73,28 @@ h1 {
 	flex: 1;
 	margin: 10px;
 	padding: 20px;
-	/*guía/regleta de la caja*/
-	border: 2px solid black;
+	text-align: center;
+	justify-content: center;
 }
 
 .center {
-	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
 }
 
 /*Controlador de imágenes*/
 img,
 figure {
+	display: flex;
 	padding: 5px;
-	max-width: 100%;
-	width: 100%;
+	max-width: 80%;
+	width: 60%;
 	display: flex;
 	object-fit: cover;
-}
-
-.divboximage {
-	display: flex;
+	border-radius: 5%;
+	height: auto;
+	align-items: center;
 }
 
 /* Responsive, cambio a columna */
