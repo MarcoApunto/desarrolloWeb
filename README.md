@@ -36,3 +36,8 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | Ejercicios                               | Contenido                                   |
 | ---------------------------------------- | ------------------------------------------- |
 | [Clase_9](./HTML_CSS/ejercicios-clase9)  | Overflow y posicionamiento absoluto/fijo    |
+
+### JS
+
+| [Clase_10](./JavaScript/ejercicios-clase10/)               | Eventos        |
+| [Clase_10_3](./Teoría/JS/DOM_Manipulation/createTable_js/) | DOM - createDL |
