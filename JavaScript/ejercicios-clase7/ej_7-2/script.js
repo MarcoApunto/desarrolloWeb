@@ -49,3 +49,4 @@ function switchLess() {
 		more.classList.add("oculto");
 	}
 }
+
