@@ -43,3 +43,11 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | ---------------------------------------- | ------------------------------------------- |
 | [Clase_10](./JavaScript/ejercicios-clase10/)               | Eventos                   |
 | [Clase_10_3](./Teoría/JS/DOM_Manipulation/createTable_js/) | DOM - createDL            |
+
+### JS - EJERCICIOS EXTRA
+
+| Ejercicios                                           | Contenido                                   |
+| ---------------------------------------------------- | ------------------------------------------- |
+| [EXTRA](./JavaScript/ejercicios-extra/recursividad/) | RECURSIVIDAD                                |
+| [EXTRA](./JavaScript/ejercicios-extra/fizzbuzz/)     | FIZZBUZZ                                    |
+| [EXTRA](./JavaScript/ejercicios-extra/bikram/)       | BIKRAM                                      |
