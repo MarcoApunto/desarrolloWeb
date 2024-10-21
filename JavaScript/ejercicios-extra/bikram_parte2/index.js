@@ -82,17 +82,23 @@ function repetirString(str, rep) {
 }
 
 function esPrimo(number) {
+	let ret = 0;
 
-	for (let i = 2; i < number; i++){
-		
+	if (number == 0 || number == 1)
+		return (number + " no es un numero primo.");
+	for (let i = 2; i <= number / 2; i++){
+		if (number % i == 0)
+			ret = 1;
 	}
+	if(ret == 0)
+		return (number + " es un numero primo.")
+	else
+		return (number + " no es un numero primo.")
+
 }
 
-console.log(esPrimo(29));
-
 /*
-Mezclando arrays y funciones
-
+	MEZCLANDO ARRAYS Y FUNCIONES
 	10.- Crear la función ordenarArray que acepta como argumento un array de números y devuelva un array ordenado de menor a mayor
 
 	11.- Crear la función obtenerPares que acepta como argumento un array de números y devuelva un array con los elementos pares
@@ -102,10 +108,30 @@ Mezclando arrays y funciones
 	13.- Crear la función arrayMapi que acepte como argumento un Array y una función y devuelva un array en el que se haya aplicado la función a cada elemento del array
 
 	14.- Crear la función eliminarDuplicados que acepte como argumento un array y devuelva un array en el que se hayan eliminado los duplicados
+*/
 
-Iteraciones 🏰 proyecto 🏰
-Arrays
+function ordenarArray(arr) {
+	let aux = 0;
 
+	for (let i = 0; i <= arr.length - 1; i++) {
+		for (let j = 0; j < arr.length - 1; j++) {
+			if (arr[j] > arr[j+1]) {
+				aux = arr[j];
+				arr[j] = arr[j+1];
+				arr[j+1] = aux;
+			}
+		}
+	}
+	return arr;
+}
+
+const arrParam = [24, 8, 5, 2, 18, 13];
+console.log(ordenarArray(arrParam));
+
+// ITERACIONES 🏰 PROYECTO 🏰
+
+/*
+	ARRAYS
 	15.- Crear variable de nombre arrayNumerosNeg declarada con un array de números del 0 al -9 (0, -1, -2...)
 
 	16.- Crear variable de nombre holaMundo declarada con valor array con las palabras 'Hola' y 'Mundo'
