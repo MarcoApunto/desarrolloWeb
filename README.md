@@ -39,9 +39,9 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 ### JS
 
-| Ejercicios                               | Contenido                                   |
-| ---------------------------------------- | ------------------------------------------- |
-| [Clase_10](./JavaScript/ejercicios-clase10/)               | Eventos                   |
+| Ejercicios                                                 | Contenido                 |
+| ---------------------------------------------------------- | ------------------------- |
+| [Clase_10](./JavaScript/ejercicios-clase10/eventos)        | Eventos                   |
 | [Clase_10_3](./Teoría/JS/DOM_Manipulation/createTable_js/) | DOM - createDL            |
 
 ### JS - EJERCICIOS EXTRA
