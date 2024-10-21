@@ -1,4 +1,4 @@
-// ITERACIONES ⚔️ PAIR PROGRAMMING ⚔️
+// PARTE I - ITERACIONES ⚔️ PAIR PROGRAMMING ⚔️
 
 /*
 	ARRAYS
@@ -32,7 +32,7 @@ let arrayBidimensional = [[0, 1, 2], ['a', 'b', 'd']];
 	9.- Crea la función esPrimo que acepte como argumento un número y devuelva true si es primo y false si no lo es
 */
 
-function sum(n1, n2) {
+function suma(n1, n2) {
 	return n1 + n2;
 }
 
@@ -86,11 +86,11 @@ function esPrimo(number) {
 
 	if (number == 0 || number == 1)
 		return (number + " no es un numero primo.");
-	for (let i = 2; i <= number / 2; i++){
+	for (let i = 2; i <= number / 2; i++) {
 		if (number % i == 0)
 			ret = 1;
 	}
-	if(ret == 0)
+	if (ret == 0)
 		return (number + " es un numero primo.")
 	else
 		return (number + " no es un numero primo.")
@@ -115,20 +115,65 @@ function ordenarArray(arr) {
 
 	for (let i = 0; i <= arr.length - 1; i++) {
 		for (let j = 0; j < arr.length - 1; j++) {
-			if (arr[j] > arr[j+1]) {
+			if (arr[j] > arr[j + 1]) {
 				aux = arr[j];
-				arr[j] = arr[j+1];
-				arr[j+1] = aux;
+				arr[j] = arr[j + 1];
+				arr[j + 1] = aux;
 			}
 		}
 	}
 	return arr;
 }
 
-const arrParam = [24, 8, 5, 2, 18, 13];
-console.log(ordenarArray(arrParam));
+function obtenerPares(arr) {
+	let retArr = [];
+	let aux = 0;
 
-// ITERACIONES 🏰 PROYECTO 🏰
+	for (let i = 0; i <= arr.length - 1; i++) {
+		if (arr[i] % 2 == 0) {
+			retArr[aux] = arr[i];
+			aux++;
+		}
+	}
+	return retArr;
+}
+
+//Supongo que es "convertir" el array numerico en una cadena de texto
+function pintarArray(arr){
+	let arrString = "[";
+
+	for(let i = 0; i < arr.length; i++){
+		arrString += arr[i];
+		if (i < arr.length - 1)
+			arrString += ", "
+	}
+	arrString += "]";
+	return arrString;
+}
+
+//POR REALIZAR DE MANERA CORRECTA
+function arrayMapi(arr, fct) {
+	return fct(arr);
+}
+
+// Añado .includes para no hacer uso de objetos
+function eliminarDuplicados(arr) {
+	let retArr = [];
+	let aux = 0;
+
+	for (let i = 0; i <= arr.length - 1; i++) {
+		// Añado .includes para no hacer uso de una variable de objetos
+		// que serviría de trigger booleano para verificar si x número
+		// está duplicado en el array.
+		if (!retArr.includes(arr[i])){
+			retArr[aux] = arr[i];
+			aux++
+		}
+	}
+	return retArr;
+}
+
+// PARTE II - ITERACIONES 🏰 PROYECTO 🏰
 
 /*
 	ARRAYS
@@ -139,9 +184,18 @@ console.log(ordenarArray(arrParam));
 	17.- Crear variable de nombre loGuardoTodo declarada con valor array con valores 'hola', 'que', 23, 42.33 y 'tal'
 
 	18.- Crear variable de nombre arrayDeArrays declarada con valor array: [[756, 'nombre'], [225, 'apellido'], [298, 'direccion']]
+*/
 
-Funciones
+let arrayNumerosNeg = [0, -1, -2, -3, -4, -5, -6, -7, -8, -9];
 
+let holaMundo = ["Hola", "Mundo"];
+
+let loGuardoTodo = ["hola", "que", 23, 42.33, "tal"];
+
+let arrayDeArrays = [[756, "nombre"], [225, "apellido"], [298, "direccion"]];
+
+/*
+	FUNCIONES
 	19.- Crea la función multiplicacion que acepte como argumento dos números y devuelva el resultado de su multiplicación
 
 	20.- Crea la función division que acepte como argumento dos números y devuelva el resultado de su division
@@ -149,9 +203,31 @@ Funciones
 	21.- Crea la función esPar que acepte como argumento un número y devuelva true si es par y false si es impar
 
 	22.- Crea el array arrayFunciones que tenga como valor las funciones: suma, resta y multiplicación (todas aceptan 2 números como argumento y devuelve el resultado de su operación)
+*/
 
-Mezclando arrays y funciones
+// BONUS FUNCION RESTA
+function resta(n1, n2) {
+	return n1 - n2;
+}
 
+function multiplicacion(n1, n2) {
+	return n1 * n2;
+}
+
+function division(n1, n2) {
+	return n1 / n2;
+}
+
+function esPar(number) {
+
+	if (number % 2 == 0)
+		return true;
+	else
+		return false;
+}
+
+/*
+	MEZCLANDO ARRAY Y FUNCIONES
 	23.- Crear la función ordenarArray2 que acepta como argumento un array de números y devuelva un array ordenado de mayor a menor
 
 	24.- Crear la función obtenerImpares que acepta como argumento un array de números y devuelva un array con los elementos impares
@@ -161,3 +237,53 @@ Mezclando arrays y funciones
 	26.- Crear la función multiplicarArray que acepte como argumento un array numérico y devuelva la multiplicación de los números en el array Array: [2, 3, 4] resultado: 24
 
 */
+
+function ordenarArray2(arr) {
+	let aux = 0;
+
+	for (let i = 0; i <= arr.length - 1; i++) {
+		for (let j = 0; j < arr.length - 1; j++) {
+			if (arr[j] < arr[j + 1]) {
+				aux = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = aux;
+			}
+		}
+	}
+	return arr;
+}
+
+function obtenerImpares(arr) {
+	let retArr = [];
+	let aux = 0;
+
+	for (let i = 0; i <= arr.length - 1; i++) {
+		if (arr[i] % 2 == 0) {
+		} else {
+			retArr[aux] = arr[i];
+			aux++;
+		}
+	}
+	return retArr;
+}
+
+function sumarArray(arr) {
+	let arrSum = 0;
+
+	for (let i = 0; i < arr.length; i++){
+		arrSum += arr[i];
+	}
+	return arrSum;
+}
+
+function multiplicarArray(arr) {
+	let arrMult = 1;
+
+	for (let i = 0; i < arr.length; i++){
+		arrMult *= arr[i];
+	}
+	return arrMult;
+}
+
+const arrParam = [2, 3, 5];
+console.log(multiplicarArray(arrParam));
