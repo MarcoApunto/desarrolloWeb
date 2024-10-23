@@ -29,7 +29,7 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | Ejercicios                                                  | Contenido                |
 | ----------------------------------------------------------- | ------------------------ |
 | [Clase_7](./JavaScript/ejercicios-clase7/)                  | DOM                      |
-| [Clase_8](https://github.com/MarcoApunto/ejercicioEquipo)   | Ejercicios equipo        |
+| [Clase_8](https://github.com/MarcoApunto/ejercicioEquipo)   | Ej Grupal - DOM          |
 
 ### CSS
 
@@ -39,11 +39,11 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 ### JS
 
-| Ejercicios                                                  | Contenido                 |
-| ----------------------------------------------------------- | ------------------------- |
-| [Clase_10](./JavaScript/ejercicios-clase10/eventos)         | Eventos                   |
-| [Clase_10_3](./Teoría/JS/DOM_Manipulation/)                 | DOM - createDL            |
-| [Clase_11](./JavaScript/ejercicios-clase11/problemaCambio/) | Problema del cambio       |
+| Ejercicios                                                 | Contenido                     |
+| ---------------------------------------------------------- | ----------------------------- |
+| [Clase_10](./JavaScript/ejercicios-clase10/eventos)        | Eventos                       |
+| [Clase_10_3](./Teoría/JS/DOM_Manipulation/)                | DOM - createDL                |
+| [Clase_11](https://github.com/MarcoApunto/ejercicioCambio) | Ej Grupal - Caja Registradora |
 
 ### JS - EJERCICIOS EXTRA
 
