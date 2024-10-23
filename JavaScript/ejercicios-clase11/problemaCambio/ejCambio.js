@@ -1,19 +1,17 @@
 // 234,27€
 
 let caja = [[500, 200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01],
-			[  1,   0,   0,  0,  2,  1, 5, 5, 10,  2,   5,   5,    0,    3,    0]];
+			[  1,   0,   0,  0,  2,  1, 5, 5, 10,  2,   1,   0,    0,    2,    0]];
 
 let pago = [[500, 200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01],
 			[  0,   0,   0,  1,  0,  0, 0, 0, 0,   0,   0,   0,    0,    0,    0]];
 
 let importe = 27.46;
 
-
 function total(efectivo) {
 	let resultado = 0
 	for (let i = 0; i < efectivo[0].length; i++) {
 		resultado += efectivo[0][i] * efectivo[1][i]
-
 	}
 	resultado = parseFloat(resultado.toFixed(2));
 	efectivo[0].push(resultado);
@@ -60,7 +58,7 @@ if (importe - pago[0][pago[0].length - 1] == 0) { //Importe justo
 					console.log("En la caja hay " + auxArr[1][i] + " billete de " + auxArr[0][i] + "€");
 					cambio = parseFloat((cambio - auxArr[0][i]).toFixed(2));
 					auxArr[1][i] -= 1;
-					console.log("Usado " + auxArr[1][i] + " billete de " + auxArr[0][i] + "€");
+					console.log("En la caja todavía hay " + auxArr[1][i] + " billete de " + auxArr[0][i] + "€");
 				}
 			}
 			if (cambio === 0) {
