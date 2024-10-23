@@ -47,9 +47,10 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 ### JS - EJERCICIOS EXTRA
 
-| Ejercicios                                                  | Contenido                                   |
-| ----------------------------------------------------------- | ------------------------------------------- |
-| [EXTRA](./JavaScript/ejercicios-extra/recursividad/)        | RECURSIVIDAD                                |
-| [EXTRA](./JavaScript/ejercicios-extra/fizzbuzz/)            | FIZZBUZZ                                    |
-| [EXTRA](./JavaScript/ejercicios-extra/bikram/bikram_parte1) | BIKRAM - PARTE I                            |
-| [EXTRA](./JavaScript/ejercicios-extra/bikram/bikram_parte2) | BIKRAM - PARTE II                           |
+| Ejercicios                                                  | Contenido                     |
+| ----------------------------------------------------------- | ----------------------------- |
+| [EXTRA](./JavaScript/ejercicios-extra/recursividad/)        | RECURSIVIDAD                  |
+| [EXTRA](./JavaScript/ejercicios-extra/fizzbuzz/)            | FIZZBUZZ                      |
+| [EXTRA](./JavaScript/ejercicios-extra/bikram/bikram_parte1) | BIKRAM - PARTE I              |
+| [EXTRA](./JavaScript/ejercicios-extra/bikram/bikram_parte2) | BIKRAM - PARTE II             |
+| [EXTRA](./JavaScript/ejercicios-extra/chauchat/)            | CHAUCHAT                      |

@@ -2,7 +2,7 @@ function chauchat(cargador) {
 
 	let count = 0;
 	for (let i = 1; i <= cargador; i++){
-		if (Math.random() * 100 < 10)
+		if (Math.random() * 100 < 80)
 			console.log("Illo, me he quedao pillá!");
 		else {
 			if (count == 3) { 
