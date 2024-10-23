@@ -9,6 +9,7 @@ let pago = [[500, 200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01
 // Este es el precio del producto
 let importe = 27.46;
 
+// Dinero total que dispone la caja y añade al final del array ese valor
 function total(efectivo) {
 	let resultado = 0;
 	for (let i = 0; i < efectivo[0].length; i++) {
@@ -19,6 +20,7 @@ function total(efectivo) {
 	return efectivo;
 }
 
+// Devuelve la posición de desde donde iniciará la búsqueda de billetes que tiene que devolver la caja
 function buscar(efectivo, cambio) {
 	let pos = 0;
 
@@ -43,6 +45,7 @@ if (importe - pago[0][pago[0].length - 1] == 0) { //Importe justo
 		if (pago[0][pago[0].length - 1] < importe) {
 			console.log("Señor! Falta dinero.");
 		} else {
+			// Devolución / cambio que tiene que realizar la caja al comprador
 			let cambio = pago[0][pago[0].length - 1] - importe;
 			console.log("A devolver: " + cambio);
 
