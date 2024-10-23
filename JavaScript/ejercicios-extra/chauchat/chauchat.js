@@ -1,18 +1,20 @@
 function chauchat(cargador) {
 
+	if (Math.random() * 100 <= 80) {
+		console.log("Illo, me he quedao pillá!");
+		return ;
+	}
+
 	let count = 0;
-	for (let i = 1; i <= cargador; i++){
-		if (Math.random() * 100 > 80)
-			console.log("Illo, me he quedao pillá!");
+	for (let i = 1; i <= cargador; i++) {
+		if (count == 3) {
+			console.log("");
+			count = 0;
+			i--;
+		}
 		else {
-			if (count == 3) { 
-				console.log("\n");
-				count = 0;
-			}
-			else {
-				console.log("pium!");
-				count += 1;
-			}
+			console.log("pium!");
+			count += 1;
 		}
 	}
 }
@@ -20,4 +22,4 @@ function chauchat(cargador) {
 let cargador = 7;
 chauchat(cargador);
 
-// Duda en el caso de hacer 3 disparos, activar el atasco y hacer el salto de línea. Si ha de hacer el salto de línea o no después del atasco.
+// Por hacer un método con arrays... algún día.
