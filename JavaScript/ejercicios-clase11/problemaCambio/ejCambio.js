@@ -1,22 +1,22 @@
-// 234,27€
-
+// Cantidad de billetes con su respectivo valor que contiene la caja del comercio / negocio
 let caja = [[500, 200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01],
 			[  1,   0,   0,  0,  2,  1, 5, 5, 10,  2,   1,   0,    0,    2,    0]];
 
+// Cantidad de billetes con su respectivo valor que dará el usuario para el importe.
 let pago = [[500, 200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01],
 			[  0,   0,   0,  1,  0,  0, 0, 0, 0,   0,   0,   0,    0,    0,    0]];
 
+// Este es el precio del producto
 let importe = 27.46;
 
 function total(efectivo) {
-	let resultado = 0
+	let resultado = 0;
 	for (let i = 0; i < efectivo[0].length; i++) {
-		resultado += efectivo[0][i] * efectivo[1][i]
+		resultado += efectivo[0][i] * efectivo[1][i];
 	}
 	resultado = parseFloat(resultado.toFixed(2));
 	efectivo[0].push(resultado);
 	return efectivo;
-
 }
 
 function buscar(efectivo, cambio) {
@@ -30,19 +30,18 @@ function buscar(efectivo, cambio) {
 
 pago = total(pago);
 caja = total(caja);
-// alert(pago[0][pago[0].length-1]);
 
 //Si el importe es igual que el pago
 if (importe - pago[0][pago[0].length - 1] == 0) { //Importe justo
-	alert("Importe justo");
+	console.log("Importe justo");
 } else {
 	//Si el pago es mayor que la caja
 	if (pago[0][pago[0].length - 1] - importe > caja[0][caja[0].length - 1]) {
-		alert("No hay cambio disponible");
+		console.log("No hay cambio disponible");
 	} else {
 		//Si el cliente ha dado de menos
 		if (pago[0][pago[0].length - 1] < importe) {
-			console.log("Señor! Falta dinero.")
+			console.log("Señor! Falta dinero.");
 		} else {
 			let cambio = pago[0][pago[0].length - 1] - importe;
 			console.log("A devolver: " + cambio);
