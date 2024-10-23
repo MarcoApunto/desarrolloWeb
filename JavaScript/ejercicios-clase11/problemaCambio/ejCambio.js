@@ -58,7 +58,7 @@ if (importe - pago[0][pago[0].length - 1] == 0) { //Importe justo
 					console.log("En la caja hay " + auxArr[1][i] + " billete de " + auxArr[0][i] + "€");
 					cambio = parseFloat((cambio - auxArr[0][i]).toFixed(2));
 					auxArr[1][i] -= 1;
-					console.log("En la caja todavía hay " + auxArr[1][i] + " billete de " + auxArr[0][i] + "€");
+					console.log("Todavía hay " + auxArr[1][i] + " billete de " + auxArr[0][i] + "€");
 				}
 			}
 			if (cambio === 0) {
@@ -66,8 +66,6 @@ if (importe - pago[0][pago[0].length - 1] == 0) { //Importe justo
 			} else {
 				console.log("No ha habido suficiente efectivo para completar el cambio");
 			}
-			console.log("Array copia, a: " + auxArr[1]);
-			console.log("Array original: " + caja[1]);
 		}
 	}
 }

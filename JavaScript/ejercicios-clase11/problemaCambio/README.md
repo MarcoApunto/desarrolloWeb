@@ -1,5 +1,7 @@
 # Ejercicio Cambio 
 
+## Hecho en grupo, junto a [Denis Suarez](https://github.com/DenisSuarez23), [Donato Marino](https://github.com/donatomarino) y servidor, Marco Ferreira.
+
 Disponemos en la caja del siguiente dinero distribuido de la siguiente manera: 234,27 € (información que se debe cargar en un array)
 
 ```
