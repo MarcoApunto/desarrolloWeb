@@ -1,0 +1,18 @@
+p, li{
+	/*c*/ color: #F00;
+	/*bgd-c*/ background-color: #CFC;
+	/*fnt-f*/ font-family: Cambria,Georgia,serif;
+	/*fnt-s*/ font-size: 16px;
+}
+
+h1 {
+	/*c*/ color: #F00;
+	/*fnt-f*/ font-family: Verdana, Calibri, sans-serif;
+	/*fnt-s*/ font-size: 32px;
+}
+
+h2 {
+	/*c*/ color: #A00;
+	/*fnt-f*/ font-family: Verdana, Calibri, sans-serif;
+	/*fnt-s*/ font-size: 24px;
+}

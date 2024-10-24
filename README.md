@@ -44,6 +44,10 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_10](./JavaScript/ejercicios-clase10/eventos)        | Eventos                       |
 | [Clase_10_3](./Teoría/JS/DOM_Manipulation/)                | DOM - createDL                |
 | [Clase_11](https://github.com/MarcoApunto/ejercicioCambio) | Ej Grupal - Caja Registradora |
+| [Clase_12](./JavaScript/ejercicios-clase12/boolean/)       | Boolean                       |
+| [Clase_12](./JavaScript/ejercicios-clase12/string/)        | String                        |
+| [Clase_12](./JavaScript/ejercicios-clase12/array/)         | Array - WiP                   |
+| [Clase_12](./Teoría/emmet/)                                | Teoría - Emmet                |
 
 ### JS - EJERCICIOS EXTRA
 
