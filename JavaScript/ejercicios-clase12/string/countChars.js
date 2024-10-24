@@ -16,4 +16,5 @@ function countChars() {
 	console.log(strSplited);
 	alert("En las palabras impares he contado " + aux + " letras a.")
 }
+
 countChars();

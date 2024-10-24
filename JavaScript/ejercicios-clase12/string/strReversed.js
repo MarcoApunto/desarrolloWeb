@@ -1,8 +1,8 @@
 function strReversed() {
 	const str = new String(prompt("Intrduzca una palabra: "));
-	const strSplited = str.split(" ");
+	const strRev = str.split(' ').reverse().join(' ');
 
-	alert(strSplited.reverse());
+	console.log(strRev);
 }
 
 strReversed();
