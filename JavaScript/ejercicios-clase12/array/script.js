@@ -1,6 +1,5 @@
 /*
 DATO ESTABLECIDO:
-
 ["aslkdja", 4, 6], ["asofja", "gfoijoi", 64], [353, 64, "alksfjhaf"]
 */
 
