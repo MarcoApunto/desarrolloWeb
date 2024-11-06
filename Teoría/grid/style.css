@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+}
+
+/*
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 75px 1fr 100px;
+	min-height: 100vh;
+}
+
+.container header {
+	background: aquamarine;
+	grid-column: 1 / -1;
+
+}
+
+.container aside {
+	background: yellowgreen;
+}
+
+.container main {
+	background: lightseagreen;
+	grid-column: span 2;
+
+}
+
+.container footer {
+	background: green;
+	grid-column: 1 / -1;
+} 
+*/
+
+/* U can do this for a better lecture */
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 75px 1fr 100px;
+	min-height: 100vh;
+	/*
+	If you like a "blank zone" put a . (dot):
+	grid-template-areas:
+		"header header ."
+		"main main main "
+		"footer footer footer"
+	*/
+	grid-template-areas:
+		"header header aside"
+		"main main main "
+		"footer footer footer"
+}
+
+.container header {
+	background: aquamarine;
+	grid-area: header;
+}
+
+.container aside {
+	background: yellowgreen;
+	grid-area: aside;
+}
+
+.container main {
+	background: lightseagreen;
+	grid-area: main;
+}
+
+.container footer {
+	background: green;
+	grid-area: footer;
+}
+
+/* Mobile first method */
+@media (width > 400px) {
+	.container {
+		grid-template-areas:
+			"header header header"
+			"aside main main"
+			"footer footer footer"
+	}
+
+}
