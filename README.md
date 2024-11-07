@@ -41,19 +41,20 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 ### JS
 
-| Ejercicios                                                  | Contenido                     |
-| ----------------------------------------------------------- | ----------------------------- |
-| [Clase_7](./JavaScript/ejercicios-clase7/)                  | DOM                           |
-| [Clase_10](./JavaScript/ejercicios-clase10/eventos)         | Eventos                       |
-| [Clase_10_3](./Teoría/JS/DOM_Manipulation/)                 | DOM - createDL                |
-| [Clase_11](https://github.com/MarcoApunto/ejercicioCambio)  | Ej Grupal - Caja Registradora |
-| [Clase_12](./JavaScript/ejercicios-clase12/POO/)            | POO                           |
-| [Clase_12](./JavaScript/ejercicios-clase12/JSON/)           | JSON                          |
-| [Clase_12](./JavaScript/ejercicios-clase12/boolean/)        | Boolean                       |
-| [Clase_12](./JavaScript/ejercicios-clase12/string/)         | String                        |
-| [Clase_12](./JavaScript/ejercicios-clase12/array/)          | Array                         |
-| [Clase_12](./Teoría/emmet/)                                 | Teoría - Emmet                |
-| [Clase_14](./JavaScript/ejercicios-clase14/)                | Web Storage                   |
+| Ejercicios                                                  | Contenido                                |
+| ----------------------------------------------------------- | ----------------------------------------  |
+| [Clase_7](./JavaScript/ejercicios-clase7/)                  | DOM                                      |
+| [Clase_10](./JavaScript/ejercicios-clase10/eventos)         | Eventos                                  |
+| [Clase_10_3](./Teoría/JS/DOM_Manipulation/)                 | DOM - createDL                           |
+| [Clase_11](https://github.com/MarcoApunto/ejercicioCambio)  | Ej Grupal - Caja Registradora            |
+| [Clase_12](./JavaScript/ejercicios-clase12/POO/)            | POO                                      |
+| [Clase_12](./JavaScript/ejercicios-clase12/JSON/)           | JSON                                     |
+| [Clase_12](./JavaScript/ejercicios-clase12/boolean/)        | Boolean                                  |
+| [Clase_12](./JavaScript/ejercicios-clase12/string/)         | String                                   |
+| [Clase_12](./JavaScript/ejercicios-clase12/array/)          | Array                                    |
+| [Clase_12](./Teoría/emmet/)                                 | Teoría - Emmet                           |
+| [Clase_14](./JavaScript/ejercicios-clase14/)                | Web Storage                              |
+| [Clase_16](./JavaScript/ejercicios-clase16/)                | Ejercicio Promesas, JSON, Local Storage  |
 
 
 ### JS - EJERCICIOS EXTRA
