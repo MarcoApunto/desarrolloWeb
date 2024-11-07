@@ -55,6 +55,7 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_12](./Teoría/emmet/)                                 | Teoría - Emmet                           |
 | [Clase_14](./JavaScript/ejercicios-clase14/)                | Web Storage                              |
 | [Clase_16](./JavaScript/ejercicios-clase16/)                | Ejercicio Promesas, JSON, Local Storage  |
+| [Clase_17](./JavaScript/ejercicios-clase17/)                | Firebase                                 |
 
 
 ### JS - EJERCICIOS EXTRA
