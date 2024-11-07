@@ -11,10 +11,17 @@ body {
 }
 
 #dog-container div {
+	display: flex;
 	border: 1px solid black;
 	overflow: hidden;
 	background-color: #d4d4d4;
 	height: 150px;
+	justify-content: center;
+}
+
+#dog-container div:last-child img {
+	display: none;
+	overflow: hidden;
 }
 
 .btn-style {
@@ -55,12 +62,10 @@ body {
 	color: #fff;
 }
 
-#dog-container div:last-child img {
-	display: none;
-	overflow: hidden;
-}
+
 
 img {
 	width: auto;
-	height: 150px;
+	height: 175px;
+	object-fit: fill;
 }

@@ -33,8 +33,6 @@ function createDog(url) {
 		dogContainer.getElementsByTagName("div")[divCount - 1].remove();
 		alert("Has superado 20 creaciones.")
 	}
-
-
 }
 
 function getDog() {
