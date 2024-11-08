@@ -19,6 +19,12 @@
 > [!CAUTION]
 > 💀 Fetch API -> Analizar, entender y usarla.
 
+## WEB VIEW ACTUAL
+
+Las tres secciones se ven de tal manera:
+
+![img](./imgProgresoProyecto/webActual.png)
+
 ## ANOTACIONES
 
 Colores definitivos para documentar:
