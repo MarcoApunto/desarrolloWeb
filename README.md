@@ -22,7 +22,12 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_3](./HTML_CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
 
 
-### CSS
+### TIME TRIAL
+
+| [FOMULARIO](https://github.com/MarcoApunto/ejercicioTimeTrial)   | Validación Contraseña Formulario  |
+
+
+### HTML
 
 | Ejercicio                                          | Contenido                                                                   |
 | -------------------------------------------------- | --------------------------------------------------------------------------- |
