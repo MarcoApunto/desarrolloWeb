@@ -1,12 +1,15 @@
 # HOJA DE RUTA Y ANOTACIONES
 
-## A INVESTIGAR / TO DO:
+## TO DO:
+
+> [!NOTE]  
+> ✅Hecho main y estilos
 
 > [!WARNING]  
-> PSA DEFINITIVO Y ALGORITMOS
+> ❌PSA DEFINITIVO Y ALGORITMOS
 
-> [!CAUTION]
-> Fetch API -> Analizar, entender y usarla
+> [!IMPORTANT]
+> 💀Fetch API -> Analizar, entender y usarla
 
 ## ANOTACIONES
 
