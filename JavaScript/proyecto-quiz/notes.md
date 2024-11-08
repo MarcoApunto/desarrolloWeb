@@ -2,17 +2,20 @@
 
 ## TO DO:
 
-> [!NOTE]  
-> ✅ Hecho main y estilos. Funciona todo perfecto
+> [!NOTE]
+> ✅ Hecho main y estilos. Funciona todo perfecto.
 
-> [!NOTE]  
-> ✅ PSA HECHO
+> [!NOTE]
+> ✅ PSA HECHO.
+
+> [!NOTE]
+> 🖌 Añadir reglas CSS para el contenido.
 
 > [!WARNING]
-> ❌ ALGORITMOS
+> ❌ ALGORITMOS.
 
-> [!IMPORTANT]
-> 💀 Fetch API -> Analizar, entender y usarla
+> [!WARNING]
+> 💀 Fetch API -> Analizar, entender y usarla.
 
 ## ANOTACIONES
 
