@@ -17,16 +17,13 @@ const pages = {
 	}
 };
 
-// Función de navegación
 function navigate(page) {
 	const contentDiv = document.getElementById('content');
 
-	// Limpiar el contenido del div antes de insertar nuevo contenido
 	while (contentDiv.firstChild) {
 		contentDiv.removeChild(contentDiv.firstChild);
 	}
 
-	// Limpiar el área de mensajes antes de cargar nuevo contenido
 	const messageArea = document.getElementById('messageArea');
 	while (messageArea.firstChild) {
 		messageArea.removeChild(messageArea.firstChild);
@@ -35,22 +32,20 @@ function navigate(page) {
 	const pageContent = pages[page];
 
 	if (pageContent) {
-		// Crear elementos DOM para la página
-		const title = document.createElement('h1');
-		title.textContent = pageContent.title;
-		contentDiv.appendChild(title);
+		const tH1 = document.createElement('h1');
+		tH1.textContent = pageContent.title;
+		contentDiv.appendChild(tH1);
 
 		const description = document.createElement('p');
 		description.textContent = pageContent.content;
 		contentDiv.appendChild(description);
 
-		// Llamar a la función específica para cada página
 		if (page === 'home') {
 			initHomePage();
 		} else if (page === 'about') {
 			initAboutPage();
 		} else if (page === 'contact') {
-			initContactPage(); // Sólo se maneja un único botón "Enviar"
+			initContactPage();
 		}
 	} else {
 		const errorMessage = document.createElement('h1');
@@ -63,16 +58,13 @@ function navigate(page) {
 	}
 }
 
-// Funciones específicas de cada página
 function initHomePage() {
 	let counter = 0;
 
-	// Crear un párrafo para el contador
 	const counterDisplay = document.createElement('p');
 	counterDisplay.textContent = `Contador: ${counter}`;
 	document.getElementById('content').appendChild(counterDisplay);
 
-	// Evento para incrementar el contador
 	const button = document.createElement('button');
 	button.textContent = 'Incrementar contador';
 	document.getElementById('content').appendChild(button);
@@ -88,18 +80,17 @@ function initAboutPage() {
 	button.textContent = 'Mostrar mensaje';
 	document.getElementById('content').appendChild(button);
 
-	// Evento para mostrar el mensaje en la página de "Acerca de"
 	button.onclick = function () {
-		showMessage('¡Gracias por visitar la página de Acerca de!');
+		//showMessage('¡Gracias por visitar la página de Acerca de!');
+		let pMessage = document.getElementById('messageArea');
+		pMessage.setAttribute('style', 'display: block; margin-top: 20px; font-size: 18px; color: green;');
+		pMessage.textContent = '¡Gracias por visitar la página de Acerca de!';
 	};
 }
 
 function initContactPage() {
-	// Crear un contenedor para el nombre y correo
 	const emailContainer = document.createElement('div');
-	emailContainer.style.display = 'flex'; // Usamos flex para alinearlos en fila
-
-	// Crear campos para nombre y correo
+	emailContainer.style.display = 'flex';
 	const nameInput = document.createElement('input');
 	nameInput.type = 'text';
 	nameInput.placeholder = 'Tu nombre';
@@ -110,41 +101,32 @@ function initContactPage() {
 	emailInput.placeholder = 'Tu email';
 	emailContainer.appendChild(emailInput);
 
-	// Crear el botón "Enviar"
 	const sendButton = document.createElement('button');
 	sendButton.textContent = 'Enviar';
-	sendButton.type = 'button'; // Es un botón de tipo "button" para evitar enviar un formulario automáticamente
-	sendButton.id = 'sendButton'; // Asignamos un id al botón
+	sendButton.type = 'button';
+	sendButton.id = 'sendButton';
 
-	// Añadir el botón de "Enviar"
 	emailContainer.appendChild(sendButton);
 
-	// Evento de clic para el botón "Enviar"
 	sendButton.addEventListener('click', function () {
 		alert(`Formulario enviado por ${nameInput.value} con email: ${emailInput.value}`);
 	});
 
-	// Añadir el contenedor al contenido
 	document.getElementById('content').appendChild(emailContainer);
 }
 
-// Función para mostrar el mensaje en el área de contenido
 function showMessage(message) {
 	const messageArea = document.getElementById('messageArea');
 
-	// Limpiar el área de mensajes antes de agregar uno nuevo
 	while (messageArea.firstChild) {
 		messageArea.removeChild(messageArea.firstChild);
 	}
 
-	// Crear el nuevo mensaje
 	const messageNode = document.createElement('p');
 	messageNode.textContent = message;
 	messageArea.appendChild(messageNode);
 
-	// Aseguramos que el área de mensajes se muestre
 	messageArea.style.display = 'block';
 }
 
-// Al cargar la página, se muestra el contenido de la página de inicio
 navigate('home');
