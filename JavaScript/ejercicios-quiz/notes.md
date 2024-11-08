@@ -3,13 +3,13 @@
 ## TO DO:
 
 > [!NOTE]  
-> ✅Hecho main y estilos
+> ✅ Hecho main y estilos
 
 > [!WARNING]  
-> ❌PSA DEFINITIVO Y ALGORITMOS
+> ❌ PSA DEFINITIVO Y ALGORITMOS
 
 > [!IMPORTANT]
-> 💀Fetch API -> Analizar, entender y usarla
+> 💀 Fetch API -> Analizar, entender y usarla
 
 ## ANOTACIONES
 
