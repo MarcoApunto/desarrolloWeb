@@ -3,21 +3,21 @@
 ## TO DO:
 
 > [!NOTE]  
-> ✅ Hecho main y estilos
+> ✅ Hecho main y estilos. Funciona todo perfecto
 
->[!WARNING]
-> ❌ Main page error de estilo h1
+> [!NOTE]  
+> ✅ PSA HECHO
 
 > [!WARNING]
-> ❌ PSA DEFINITIVO Y ALGORITMOS
+> ❌ ALGORITMOS
 
 > [!IMPORTANT]
 > 💀 Fetch API -> Analizar, entender y usarla
 
 ## ANOTACIONES
 
-COLOR BASADO EN #6e7356 COMO PRINCIPAL Y LOS RESTANTES RELACIONADOS
-https://encycolorpedia.es/6e7356
+Colores definitivos para documentar:
+#D3570080/rgba(211, 87, 0, 0.5), #672B00, #4F2100, #EB6302
 
 FUENTES POSIBLES
 - https://fonts.google.com/specimen/Electrolize?preview.text=Bienvenutti&lang=es_Latn&categoryFilters=Appearance:%2FTheme%2FTechno
