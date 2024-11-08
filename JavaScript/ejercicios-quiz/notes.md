@@ -1,8 +1,7 @@
 A INVESTIGAR / TODO:
 
 > [!WARNING]  
-> PSA DEFINITIVO JS
-> ALGORITMOS
+> PSA DEFINITIVO Y ALGORITMOS
 
 > [!CAUTION]
 > Fetch API -> Analizar, entender y usarla
