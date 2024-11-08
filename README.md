@@ -8,9 +8,9 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | Proyectos                                                         | TEMA                                      |
 | ----------------------------------------------------------------- | ----------------------------------------- |
 | [Página WEB](https://github.com/MarcoApunto/aventuraViajera)      | Aventura Viajera                          |
-| [Clase_8](https://github.com/MarcoApunto/ejercicioEquipo)         | Ej Grupal - DOM                           |
-| [Clase 15_2](https://github.com/MarcoApunto/proyectoCodeBankForm) | Ej Grupal - Formulario Banco              |
-| [Clase_17](./JavaScript/ejercicios-quiz/)                         | Ej - Quiz                                 |
+| [Clase_8](https://github.com/MarcoApunto/ejercicioEquipo)         | Proyecto Grupal - DOM                     |
+| [Clase 15_2](https://github.com/MarcoApunto/proyectoCodeBankForm) | Proyecto Grupal - Formulario Banco        |
+| [Clase_17](./JavaScript/proyecto-quiz/)                           | Proyecto - Quiz                           |
 
 
 ### HTML
