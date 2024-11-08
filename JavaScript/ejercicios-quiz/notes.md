@@ -1,3 +1,12 @@
+A INVESTIGAR / TODO:
+
+> [!WARNING]  
+> PSA DEFINITIVO JS
+> ALGORITMOS
+
+> [!CAUTION]
+> Fetch API -> Analizar, entender y usarla
+
 COLOR BASADO EN #d4d4d4 COMO PRINCIPAL Y LOS RESTANTES RELACIONADOS
 https://encycolorpedia.es/d4d4d4
 
@@ -8,13 +17,3 @@ FUENTES POSIBLES
 - https://fonts.google.com/specimen/Share+Tech+Mono?preview.text=Bienvenutti&lang=es_Latn&categoryFilters=Appearance:%2FTheme%2FTechno
 - https://fonts.google.com/specimen/Nabla?preview.text=Bienvenutti&lang=es_Latn&categoryFilters=Appearance:%2FTheme%2FTechno
 - https://fonts.google.com/specimen/Baumans?preview.text=Bienvenutti&lang=es_Latn&categoryFilters=Appearance:%2FTheme%2FTechno
-
-
-A INVESTIGAR / TODO:
-
-> [!WARNING]  
-> PSA DEFINITIVO JS
-> ALGORITMOS
-
-> [!CAUTION]
-> Fetch API -> Analizar, entender y usarla
