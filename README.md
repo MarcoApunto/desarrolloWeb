@@ -13,6 +13,12 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_17](https://github.com/MarcoApunto/proyectoQuiz)           | Proyecto - Quiz (Privado🔒 hasta finalizar) |
 
 
+### TIME TRIAL
+| Ejercicios                                                     | Contenido                         |
+| -------------------------------------------------------------- | --------------------------------- |
+| [FOMULARIO](https://github.com/MarcoApunto/ejercicioTimeTrial) | Validación Contraseña Formulario  |
+
+
 ### HTML
 
 | Ejercicios                                         | Contenido                                    |
@@ -20,11 +26,6 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_1](./HTML_CSS/ejercicios-clase1/)           | Primeros pasos en HTML5                      |
 | [Clase_2](./HTML_CSS/ejercicios-clase2/)           | Formularios y Web semántica HTML5            |
 | [Clase_3](./HTML_CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
-
-
-### TIME TRIAL
-
-| [FOMULARIO](https://github.com/MarcoApunto/ejercicioTimeTrial)   | Validación Contraseña Formulario  |
 
 
 ### HTML
