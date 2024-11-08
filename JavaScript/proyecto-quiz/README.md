@@ -8,7 +8,7 @@
 > ✅ Hecho main y estilos. Funciona todo perfecto.
 
 > [!NOTE]
-> ✅ PSA HECHO.
+> ✅ SPA HECHO.
 
 > [!NOTE]
 > 🖌 Añadir reglas CSS para el contenido.
