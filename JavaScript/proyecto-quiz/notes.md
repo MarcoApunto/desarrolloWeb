@@ -5,7 +5,10 @@
 > [!NOTE]  
 > ✅ Hecho main y estilos
 
-> [!WARNING]  
+>[!WARNING]
+> ❌ Main page error de estilo h1
+
+> [!WARNING]
 > ❌ PSA DEFINITIVO Y ALGORITMOS
 
 > [!IMPORTANT]
