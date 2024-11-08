@@ -14,7 +14,7 @@
 > [!WARNING]
 > ❌ ALGORITMOS.
 
-> [!WARNING]
+> [!CAUTION]
 > 💀 Fetch API -> Analizar, entender y usarla.
 
 ## ANOTACIONES
