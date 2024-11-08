@@ -1,6 +1,6 @@
 # HOJA DE RUTA Y ANOTACIONES
 
-## [Enunciado](./enunciado.md)
+## [Enunciado del Proyecto Quiz](./enunciado.md)
 
 ## TO DO:
 
