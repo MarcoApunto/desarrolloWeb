@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SPA con Funciones</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div id="navbar">
+		<button onclick="navigate('home')">Inicio</button>
+		<button onclick="navigate('about')">Acerca de</button>
+		<button onclick="navigate('contact')">Contacto</button>
+	</div>
+
+	<div id="content">
+		<h1>Bienvenido a la SPA</h1>
+		<p>Elige una opción del menú.</p>
+	</div>
+
+	<!-- Área para mostrar mensajes -->
+    <div id="messageArea" style="display:none; margin-top: 20px; font-size: 18px; color: green;"></div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
