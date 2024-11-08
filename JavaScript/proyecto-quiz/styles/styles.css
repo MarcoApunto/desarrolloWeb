@@ -1,24 +1,11 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-/* https://encycolorpedia.es/6e7356 */
 :root {
-	--primary-color: #6e7356;
-	--secondary-color: #6c7059;
-	--tertiary-color: #6b6e5b;
-	--contrast-color: #555849;
-	--light-color: #858972;
-
 	--font-primary: "Prosto One", serif;
 	/*
 	font-weight: 400;
 	font-style: normal;
 	*/
 	--font-title: "Nabla", system-ui
-	/*
+		/*
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
@@ -28,43 +15,63 @@
 	*/
 }
 
-.container {
-	background: #303030;
-	min-height: 100vh;
-	font-family: var(--font-primary);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-nav {
-	position: fixed;
-	left: 0;
-	z-index: 50;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
+html,
+body {
 	height: 100vh;
-	background: var(--contrast-color);
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
 }
 
-nav a {
-	font-size: 45px;
-	color: #fff;
+.navbar {
+	background: #672B00;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100vh;
+	width: 80px;
+}
+
+.navbar a {
+	font-size: 40px;
 	text-decoration: none;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 }
 
-section {
-	top: 0;
-	height: 100vh;
-	width: 0;
+.container {
+	background: #4F2100;
+	flex-grow: 1;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	overflow-y: auto;
+	padding: 20px;
+	width: 100vw;
 }
 
-section h1 {
-	color: #fff;
+.container #psa-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 90%;
+	font-family: var(--font-primary);
+	font-weight: 400;
+	font-style: normal;
+	color: #EB6302;
+	text-shadow: 3px 3px 7px #D3570080;
+}
+
+.container h1 {
 	font-size: 70px;
+	text-align: center;
+	word-wrap: break-word;
 	font-family: var(--font-title);
 	font-optical-sizing: auto;
 	font-weight: 400;
@@ -73,25 +80,4 @@ section h1 {
 		"EDPT" 100,
 		"EHLT" 12;
 	text-transform: uppercase;
-}
-
-section:target {
-	opacity: 1;
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 10;
-}
-
-#home {
-	background: var(--primary-color);
-}
-
-#question {
-	background: var(--secondary-color);
-}
-
-#results {
-	background: var(--tertiary-color);
 }
