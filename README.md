@@ -14,9 +14,9 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 
 ### TIME TRIAL
-| Ejercicios                                                     | Contenido                         |
-| -------------------------------------------------------------- | --------------------------------- |
-| [FOMULARIO](https://github.com/MarcoApunto/ejercicioTimeTrial) | Validación Contraseña Formulario  |
+| Ejercicios                                                       | Contenido                           |
+| ---------------------------------------------------------------- | ----------------------------------- |
+| [FOMULARIO](https://github.com/MarcoApunto/ejercicioTimeTrial)   | Validación Contraseña Formulario    |
 
 
 ### HTML
