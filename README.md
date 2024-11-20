@@ -43,7 +43,7 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 ### JS
 
 | Ejercicios                                                  | Contenido                                |
-| ----------------------------------------------------------- | ----------------------------------------  |
+| ----------------------------------------------------------- | ---------------------------------------- |
 | [Clase_7](./JavaScript/ejercicios-clase7/)                  | DOM                                      |
 | [Clase_10](./JavaScript/ejercicios-clase10/eventos)         | Eventos                                  |
 | [Clase_10_3](./Teoría/JS/DOM_Manipulation/)                 | DOM - createDL                           |
@@ -57,6 +57,13 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_14](./JavaScript/ejercicios-clase14/)                | Web Storage                              |
 | [Clase_16](./JavaScript/ejercicios-clase16/)                | Ejercicio Promesas, JSON, Local Storage  |
 | [Clase_17](./JavaScript/ejercicios-clase17/)                | Firebase                                 |
+
+### REACT
+
+| Ejercicios                                                                             | Contenido          |
+| -------------------------------------------------------------------------------------- | ------------------ |
+| [Clase_20](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/form)  | Form w/ Components |
+| [Clase_20](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/hooks) | Hooks              |
 
 
 ### JS - EJERCICIOS EXTRA
