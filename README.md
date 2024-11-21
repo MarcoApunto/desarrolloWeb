@@ -14,13 +14,6 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase 15_2](https://github.com/MarcoApunto/proyectoCodeBankForm) | Proyecto Grupal - Formulario Banco          |
 | [Clase_17](https://github.com/MarcoApunto/proyectoQuiz)           | Proyecto - Quiz (Privado🔒 hasta finalizar) |
 
-
-### TIME TRIAL
-| Ejercicios                                                       | Contenido                           |
-| ---------------------------------------------------------------- | ----------------------------------- |
-| [FOMULARIO](https://github.com/MarcoApunto/ejercicioTimeTrial)   | Validación Contraseña Formulario    |
-
-
 ### HTML
 
 | Ejercicios                                         | Contenido                                    |
