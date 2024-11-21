@@ -1,7 +1,9 @@
 # desarrolloWeb
 Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
-## Ejercicios, Prácticas y Proyectos en clase
+---
+
+# Ejercicios, Prácticas y Proyectos en clase
 
 ### PROYECTOS
 
@@ -81,5 +83,3 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [EXTRA](./JavaScript/ejercicios-extra/bikram/bikram_parte1) | BIKRAM - PARTE I              |
 | [EXTRA](./JavaScript/ejercicios-extra/bikram/bikram_parte2) | BIKRAM - PARTE II             |
 | [EXTRA](./JavaScript/ejercicios-extra/chauchat/)            | CHAUCHAT                      |
-
-Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
