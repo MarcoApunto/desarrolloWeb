@@ -23,7 +23,7 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_3](./HTML_CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
 
 
-### HTML
+### CSS
 
 | Ejercicio                                          | Contenido                                                                   |
 | -------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -33,7 +33,7 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_13](./HTML_CSS/ejercicios-clase13/grid)     | Grid                                                                        |
 
 
-### Fundamentos de Programación - JavaScript
+### FUNDAMENTOS DE PROGRAMACIÓN - JAVASCRIPT
 
 | Ejercicios                                      | Contenido                                   |
 | ----------------------------------------------- | ------------------------------------------- |
