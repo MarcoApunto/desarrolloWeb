@@ -40,7 +40,6 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_4](./JavaScript/ejercicios-clase4/)      | Ejercicios Varios                           |
 | [Clase_5](./JavaScript/ejercicios-clase5/)      | Subprogramas y Funciones en JavaScript      |
 
-
 ### JS
 
 | Ejercicios                                                  | Contenido                                |
