@@ -32,6 +32,7 @@ function getDescription(data) {
 	let getDescription = document.getElementById('description')
 
 	getMovies.addEventListener('change', (event) => {
+		// Get the attribute of the element select => value as event
 		let selectedOption = event.target.value;
 		let selectedMovie;
 
