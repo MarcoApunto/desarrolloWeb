@@ -41,6 +41,7 @@ function getDescription(data) {
 				break;
 			}
 		}
+
 		if (getDescription.firstChild)
 			getDescription.removeChild(getDescription.firstChild)
 
