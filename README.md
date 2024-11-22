@@ -65,7 +65,6 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_20](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/form)  | Form w/ Components |
 | [Clase_20](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/hooks) | Hooks              |
 
-
 ### JS - EJERCICIOS EXTRA
 
 | Ejercicios                                                  | Contenido                     |
