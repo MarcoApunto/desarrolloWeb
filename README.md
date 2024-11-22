@@ -22,7 +22,6 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_2](./HTML_CSS/ejercicios-clase2/)           | Formularios y Web semántica HTML5            |
 | [Clase_3](./HTML_CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
 
-
 ### CSS
 
 | Ejercicio                                          | Contenido                                                                   |
