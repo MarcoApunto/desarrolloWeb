@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CRUD Firebase</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/pulse/bootstrap.min.css"
+		integrity="sha384-L7+YG8QLqGvxQGffJ6utDKFwmGwtLcCjtwvonVZR/Ba2VzhpMwBz51GaXnUsuYbj" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="card text-white bg-info mb-6  offset-md-4" style="max-width: 20rem;">
+		<div class="card-header">Formulario Tareas</div>
+		<div class="card-body">
+			<form id="task-form">
+				<input type="text" id="task-title" class="form-control" placeholder="Título de la tarea" autofocus>
+				<textarea id="task-description" class="form-control" placeholder="Descripción de la tarea" cols="10"
+					rows="5"></textarea>
+				<br>
+
+				<input type="submit" value="Enviar Tarea" class="btn btn-lg btn-primary" id="task-button">
+
+			</form>
+
+		</div>
+	</div>
+	<br>
+	<h3>Listado de tareas existente</h3>
+
+	<script src="utils.js" type="module" defer></script>
+	<script src="index.js" type="module" defer></script>
+</body>
+
+</html>
