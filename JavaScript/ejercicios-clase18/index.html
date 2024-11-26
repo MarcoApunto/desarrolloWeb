@@ -25,8 +25,25 @@
 			</form>
 
 		</div>
+		<br />
+		<br />
 	</div>
 	<br>
+	<div class="card text-white bg-info mb-6  offset-md-4" style="max-width: 20rem;">
+		<div class="card-header">Actualizador de Tareas</div>
+		<div class="card-body">
+			<form id="task-form">
+				<input type="text" id="task-title" class="form-control" placeholder="Título de la tarea" autofocus>
+				<textarea id="task-description" class="form-control" placeholder="Descripción de la tarea" cols="10"
+					rows="5"></textarea>
+				<br>
+
+				<input type="submit" value="Actualizar Tarea" class="btn btn-lg btn-primary" id="task-button" name="update">
+
+			</form>
+
+		</div>
+	</div>
 	<h3>Listado de tareas existente</h3>
 
 	<script src="utils.js" type="module" defer></script>

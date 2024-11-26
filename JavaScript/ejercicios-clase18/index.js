@@ -1,6 +1,6 @@
 
 //Me traigo mi db firestore
-import { getTasks, insertTask, deleteTask } from "./utils.js";
+import { getTasks, insertTask, deleteTask, updateTask } from "./utils.js";
 //console.log(db);
 //Extraigo todos los documentos de tasks y creo tarjetas con ellos
 await getTasks();
@@ -18,7 +18,6 @@ form.addEventListener("submit", e => {
 	insertTask(task);
 })
 
-
 const buttonsCardD = document.getElementsByName("delete");
 buttonsCardD.forEach(element => {
 	element.addEventListener("click", () => {
@@ -28,3 +27,10 @@ buttonsCardD.forEach(element => {
 		deleteTask(element.id);
 	})
 });
+
+const updateBtn = document.getElementsByName("update")
+console.log(updateBtn)
+updateBtn.addEventListener("submit", e => {
+	
+	updateTask();
+})

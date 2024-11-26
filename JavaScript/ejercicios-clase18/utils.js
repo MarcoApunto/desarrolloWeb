@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
-import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc } from 'https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js';
+import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc, updateDoc } from 'https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -11,6 +11,7 @@ const firebaseConfig = {
 	storageBucket: "ej-18-form.firebasestorage.app",
 	messagingSenderId: "368282230342",
 	appId: "1:368282230342:web:7a7720c2287fcebbbe7447"
+
 };
 
 // Initialize Firebase
@@ -81,4 +82,9 @@ export async function insertTask(task) {
 export async function deleteTask(id) {
 	await deleteDoc(doc(db, "tasks", id));
 	alert("Borrada la tarea: " + id);
+}
+
+export async function updateTask() {
+	await updateDoc(doc(db, "tasks", '16XwM2Opw2SzY7GDZ77o'))
+	alert("Actualizada la tarea: ");
 }
