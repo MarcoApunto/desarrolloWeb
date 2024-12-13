@@ -1,4 +1,4 @@
-# desarrolloWeb
+# Desarrollo Web
 Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 
 ---
@@ -17,30 +17,16 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_18](https://github.com/MarcoApunto/proyecto-crud)          | Proyecto Grupal - Recrear App FireStore no funcional   |
 
 
-### HTML
+### REACT
 
-| Ejercicios                                         | Contenido                                    |
-| -------------------------------------------------- | -------------------------------------------- |
-| [Clase_1](./HTML_CSS/ejercicios-clase1/)           | Primeros pasos en HTML5                      |
-| [Clase_2](./HTML_CSS/ejercicios-clase2/)           | Formularios y Web semántica HTML5            |
-| [Clase_3](./HTML_CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
+| Ejercicios                                                                                         | Contenido             |
+| -------------------------------------------------------------------------------------------------- | --------------------- |
+| [Clase_20](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/form)              | Form w/ Components    |
+| [Clase_21](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/form_props)        | Form w/ Props         |
+| [Clase_22](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/hooks)             | To Do List w/ Hooks   |
+| [Clase_24](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/routing-app-shop)  | React Router          |
+| [Clase_26](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/hooks)             | Poke Shop w/ Context  |
 
-### CSS
-
-| Ejercicio                                          | Contenido                                                                   |
-| -------------------------------------------------- | --------------------------------------------------------------------------- |
-| [Clase_3](./HTML_CSS/ejercicios-clase3/ej_CSS)     | Selectores Básicos y Avanzados, Combinados, Herencia, Ejemplos y Colisiones |
-| [Clase_9](./HTML_CSS/ejercicios-clase9)            | Overflow y posicionamiento absoluto/fijo                                    |
-| [Clase_13](./HTML_CSS/ejercicios-clase13/flexbox)  | Flexbox                                                                     |
-| [Clase_13](./HTML_CSS/ejercicios-clase13/grid)     | Grid                                                                        |
-
-
-### FUNDAMENTOS DE PROGRAMACIÓN - JAVASCRIPT
-
-| Ejercicios                                      | Contenido                                   |
-| ----------------------------------------------- | ------------------------------------------- |
-| [Clase_4](./JavaScript/ejercicios-clase4/)      | Ejercicios Varios                           |
-| [Clase_5](./JavaScript/ejercicios-clase5/)      | Subprogramas y Funciones en JavaScript      |
 
 ### JS
 
@@ -60,13 +46,32 @@ Curso Desarrollo de Apps con Tecnología Web - Campus Digital San Blas
 | [Clase_16](./JavaScript/ejercicios-clase16/)                | Ejercicio Promesas, JSON, Local Storage  |
 | [Clase_17](./JavaScript/ejercicios-clase17/)                | Firebase                                 |
 
-### REACT
 
-| Ejercicios                                                                                  | Contenido          |
-| ------------------------------------------------------------------------------------------- | ------------------ |
-| [Clase_20](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/form)       | Form w/ Components |
-| [Clase_20](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/form_props) | Form w/ Props      |
-| [Clase_20](https://github.com/MarcoApunto/react-ejercicios/tree/main/ejercicios/hooks)      | Hooks              |
+### CSS
+
+| Ejercicio                                          | Contenido                                                                   |
+| -------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Clase_3](./HTML_CSS/ejercicios-clase3/ej_CSS)     | Selectores Básicos y Avanzados, Combinados, Herencia, Ejemplos y Colisiones |
+| [Clase_9](./HTML_CSS/ejercicios-clase9)            | Overflow y posicionamiento absoluto/fijo                                    |
+| [Clase_13](./HTML_CSS/ejercicios-clase13/flexbox)  | Flexbox                                                                     |
+| [Clase_13](./HTML_CSS/ejercicios-clase13/grid)     | Grid                                                                        |
+
+
+### HTML
+
+| Ejercicios                                         | Contenido                                    |
+| -------------------------------------------------- | -------------------------------------------- |
+| [Clase_1](./HTML_CSS/ejercicios-clase1/)           | Primeros pasos en HTML5                      |
+| [Clase_2](./HTML_CSS/ejercicios-clase2/)           | Formularios y Web semántica HTML5            |
+| [Clase_3](./HTML_CSS/ejercicios-clase3/ej_rutas)   | Rutas y enlaces                              |
+
+
+### FUNDAMENTOS DE PROGRAMACIÓN - JAVASCRIPT
+
+| Ejercicios                                      | Contenido                                   |
+| ----------------------------------------------- | ------------------------------------------- |
+| [Clase_4](./JavaScript/ejercicios-clase4/)      | Ejercicios Varios                           |
+| [Clase_5](./JavaScript/ejercicios-clase5/)      | Subprogramas y Funciones en JavaScript      |
 
 
 ### JS - EJERCICIOS EXTRA
